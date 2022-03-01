@@ -147,7 +147,7 @@ let dbJson = JSON.stringify(global.db.data)
 								{
 									"urlButton": {
 										"displayText": "DROP CHIP",
-										"url": `https://chat.whatsapp.com/K0TzaSxilVo40RIwePiT23`
+										"url": `https://chat.whatsapp.com/CRCWzRiJWwK8jdh7Mo76ME`
 										}
 										},
 										{
