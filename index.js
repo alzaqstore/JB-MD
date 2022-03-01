@@ -390,7 +390,7 @@ break
 								{
 									"urlButton": {
 										"displayText": "DROP CHIP",
-										"url": `https://chat.whatsapp.com/K0TzaSxilVo40RIwePiT23`
+										"url": `https://chat.whatsapp.com/CRCWzRiJWwK8jdh7Mo76ME`
 										}
 										},
 										{
@@ -728,7 +728,7 @@ alpha.sendMessage(from, {image : fs.readFileSync('./image/donasii.jpg'), caption
 🗒️ Catatan :
 ${tek}
 
-Pesanan @${m.sender.split("@")[0]} sedang di proses!`
+Pesanan sedang di proses!`
 alpha.sendTextWithMentions(m.chat, teks, m)
             	}
             break
@@ -740,7 +740,7 @@ alpha.sendTextWithMentions(m.chat, teks, m)
 ⌚ JAM : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')} WIB
 ⏳ STATUS : Berhasil\`\`\`
 
-Terima kasih ${pushname} next order ya 🙏`
+Terima kasih di tunggu next order ya 🙏`
 alpha.sendTextWithMentions(m.chat, teks, m)
             	}
             break
