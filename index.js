@@ -378,6 +378,9 @@ break
             case 'format':{
             	reply(lang.format())
             	}
+case 'vformat':{
+            	reply(lang.vformat())
+            	}
             break
             case 'menu':{
             	var but = [
