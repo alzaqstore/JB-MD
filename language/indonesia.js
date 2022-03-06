@@ -664,7 +664,7 @@ exports.format = () =>{
 ❏ NICKNAME : 
 ❏ ORDER :`
 }
-exports.format = () =>{
+exports.vformat = () =>{
 	return`*FORMAT ORDER VILOG* ⤵️
 ❏ORDER: 
 ❏LOGIN:  
