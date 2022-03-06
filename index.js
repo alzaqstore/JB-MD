@@ -698,8 +698,134 @@ break
 						alpha.send2ButMes(m.chat, lang.genshin(), `© ${ownername}`, `format`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
-					
-			case 'pay': case 'bayar':{
+case 'vilog':{
+						alpha.sendList(from, 'LIST TOP UP GAME', `© ${ownername}`, salam +   pushname, 'KLIK DISINI', [
+							{
+								"title": "LIST VILOG ALL GAME",
+								"rows": [
+									{
+										"title": "FF",
+										"rowId": "vilogff"
+									},
+									{
+										"title": "LINE",
+										"rowId": "line"
+									},
+									{
+										"title": "TIKTOK",
+										"rowId": "tt"
+									},
+									{
+										"title": "ZEPETO",
+										"rowId": "zpt"
+									},
+									{
+										"title": "ROBLOX",
+										"rowId": "roblox"
+									},
+									{
+										"title": "PES 2021",
+										"rowId": "pes"
+									},
+									{
+										"title": "LIFE AFTER",
+										"rowId": "la"
+									},
+									{
+										"title": "PUBG MOBILE",
+										"rowId": "vilogpubg"
+									},
+									{
+										"title": "GENSHIN IMPACT",
+										"rowId": "viloggenshin"
+									},
+									{
+										"title": "REQUEST ALL GAME",
+										"rowId": "request"
+									}
+								]
+							}
+							], {quoted: m})
+					}
+					break
+					case 'chip':{
+						var but = [
+						{
+											"quickReplyButton": {
+												"displayText": "CHIP EMAS",
+												"id": 'emas'
+												}
+												},
+												{
+													"quickReplyButton": {
+														"displayText": "CHIP UNGU",
+														"id": 'ungu'
+														}
+														},
+														{
+															"quickReplyButton": {
+																"displayText": "VIP NAMBAH LIMIT",
+																"id": 'vip'
+																}
+																}
+																]
+							await alpha.send5ButLoc(from, salam + '' + pushname, `© ${ownername}`,pp_bot, but )
+							
+						}
+						break
+case 'emas':{
+						alpha.send2ButMes(m.chat, lang.emas(), `© ${ownername}`, `format`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'ungu':{
+						alpha.send2ButMes(m.chat, lang.ungu(), `© ${ownername}`, `format`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'vip':{
+						alpha.send2ButMes(m.chat, lang.vip(), `© ${ownername}`, `format`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'vilogff':{
+						alpha.send2ButMes(m.chat, lang.vilogff(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'line':{
+						alpha.send2ButMes(m.chat, lang.line(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'tt':{
+					alpha.send2ButMes(m.chat, lang.tt(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'zpt':{
+						alpha.send2ButMes(m.chat, lang.zpt(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'roblox':{
+						alpha.send2ButMes(m.chat, lang.roblox(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'pes':{
+						alpha.send2ButMes(m.chat, lang.pes(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'la':{
+						alpha.send2ButMes(m.chat, lang.la(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'vilogpubg':{
+						alpha.send2ButMes(m.chat, lang.vilogpubg(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'viloggenshin':{
+						alpha.send2ButMes(m.chat, lang.viloggenshin(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+					case 'request':{
+						alpha.send2ButMes(m.chat, lang.request(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+				}
+						break
+		case 'pay': case 'bayar':{
 				let cap =`*╭─❒  SCAN UNTUK GOPAY ❒──*
 *│*
 *│*⬡ *BRI : 547901014514 538*
