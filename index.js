@@ -843,7 +843,7 @@ case 'emas':{
 -------------------------------------------------------
 ▌│█║▌║▌║║▌│▌║█│▌║▌║█│
 ▌│█║▌║▌║║▌│▌║█│▌║▌║█│`
-alpha.sendMessage(from, {image : fs.readFileSync('./image/donasii.jpg'), caption: cap}, {quoted: m})
+alpha.sendMessage(from, {image : fs.readFileSync('./image/alzaq92.jpg'), caption: cap}, {quoted: m})
 				}
 			break
             case 'p': case 'proses':{
