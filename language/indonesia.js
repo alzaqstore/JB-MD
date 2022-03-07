@@ -666,13 +666,13 @@ exports.format = () =>{
 }
 exports.vformat = () =>{
 	return`*FORMAT ORDER VILOG* ⤵️
-❏ORDER: 
-❏LOGIN:  
-❏EMAIL: 
-❏SANDI: 
-❏KODE: 
-❏SERVER:
-❏USERNAME:
+❏USERNAME : 
+❏SERVER : 
+❏ORDER : 
+❏LOGIN : 
+❏EMAIL : 
+❏SANDI : 
+❏KODE : 
 
 ⚠️ *WAJIB* AMANKAN DATA AKUN SETELAH DONE ⚠️`
 }
