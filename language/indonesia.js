@@ -728,7 +728,7 @@ exports.rules =() =>{
 9. GUNAKAN BAHASA YG SOPAN SELAMA DI GRUP
 10. DILARANG PROMOSI / SHARE LINK KECUALI DAGET
 
-#SEMANGAT_PEJUANG_RECEH`
+*#SEMANGAT_PEJUANG_RECEH*`
 	}
 exports.groupOnly = () => {
     return `👥  Command ini hanya bisa digunakan di dalam grup!`
