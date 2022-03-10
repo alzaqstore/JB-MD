@@ -382,6 +382,9 @@ case 'vformat':{
             	reply(lang.vformat())
             	}
             break
+case 'rules':{
+            	reply(lang.rules())
+            	}
             case 'menu':{
             	var but = [
 						{
