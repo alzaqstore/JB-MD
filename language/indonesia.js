@@ -703,7 +703,7 @@ exports.format = () =>{
 ❏ NICKNAME : 
 ❏ ORDER :`
 }
-exports.vformat = () =>{
+exports.frmtvlg = () =>{
 	return`*FORMAT ORDER VILOG* ⤵️
 ❏USERNAME : 
 ❏SERVER : 
