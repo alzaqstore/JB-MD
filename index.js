@@ -379,7 +379,7 @@ break
             	reply(lang.format())
             	}
 case 'frmtvlg':{
-            	reply(lang.vformat())
+            	reply(lang.frmtvlg())
             	}
             break
 case 'rules':{
