@@ -378,7 +378,7 @@ break
             case 'format':{
             	reply(lang.format())
             	}
-case 'vformat':{
+case 'frmtvlg':{
             	reply(lang.vformat())
             	}
             break
@@ -792,43 +792,43 @@ case 'emas':{
 				}
 						break
 					case 'vilogff':{
-						alpha.send2ButMes(m.chat, lang.vilogff(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.vilogff(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'line':{
-						alpha.send2ButMes(m.chat, lang.line(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.line(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'tt':{
-					alpha.send2ButMes(m.chat, lang.tt(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+					alpha.send2ButMes(m.chat, lang.tt(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'zpt':{
-						alpha.send2ButMes(m.chat, lang.zpt(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.zpt(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'roblox':{
-						alpha.send2ButMes(m.chat, lang.roblox(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.roblox(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'pes':{
-						alpha.send2ButMes(m.chat, lang.pes(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.pes(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'la':{
-						alpha.send2ButMes(m.chat, lang.la(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.la(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'vilogpubg':{
-						alpha.send2ButMes(m.chat, lang.vilogpubg(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.vilogpubg(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'viloggenshin':{
-						alpha.send2ButMes(m.chat, lang.viloggenshin(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.viloggenshin(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 					case 'request':{
-						alpha.send2ButMes(m.chat, lang.request(), `© ${ownername}`, `vformat`, `FORMAT`, `bayar`, `BAYAR`, m)
+						alpha.send2ButMes(m.chat, lang.request(), `© ${ownername}`, `frmtvlg`, `FORMAT`, `bayar`, `BAYAR`, m)
 				}
 						break
 		case 'pay': case 'bayar':{
