@@ -140,32 +140,32 @@ let dbJson = JSON.stringify(global.db.data)
    		var but = [
 						{
 							"urlButton": {
-								"displayText": "DROP VILOG",
-								"url": `https://chat.whatsapp.com/FzvHVWoq2W9EpAs8VolFeI`
+								"displayText": "YT Admin",
+								"url": `https://bit.ly/ytalzaq`
 								}
 								},
 								{
 									"urlButton": {
-										"displayText": "DROP CHIP",
-										"url": `https://chat.whatsapp.com/CRCWzRiJWwK8jdh7Mo76ME`
+										"displayText": "IG Admin",
+										"url": `https://bit.ly/igalzaq`
 										}
 										},
 										{
 											"quickReplyButton": {
-												"displayText": "FF",
-												"id": 'ff'
+												"displayText": "RULES",
+												"id": 'rules'
 												}
 												},
 												{
 													"quickReplyButton": {
-														"displayText": "ML",
-														"id": 'ml'
+														"displayText": "OWNER",
+														"id": 'owner'
 														}
 														},
 														{
 															"quickReplyButton": {
-																"displayText": "LIST STORE",
-																"id": 'pricelist'
+																"displayText": "PAYMENT",
+																"id": 'pay'
 																}
 																}
 																]
