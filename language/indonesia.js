@@ -702,7 +702,7 @@ exports.leave = () =>{
 Goodbye`
 }
 exports.format = () =>{
-	return`*FORMAT ODER*⤵️
+	return`*FORMAT ORDER VIA ID*⤵️
 ❏ ID :
 ❏ SERVER :
 ❏ NICKNAME : 
